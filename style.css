@@ -1,0 +1,35 @@
+header {
+    background-color: #432068;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+        }
+  
+    article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 500px;
+    background-image: url('uwp.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+    section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  nav {
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-image: url('line.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
